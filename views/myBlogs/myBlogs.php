@@ -35,6 +35,9 @@
     <div class="container">
         <section class="blogs">
             <h2>My Blogs</h2>
+            <form action="includes/logout.php" method="POST" class="logout-form">
+            <button type="submit" name="logout-submit">Logout</button>
+            </form>
              <?php 
                 if(!empty($myPosts)){
                     foreach ($myPosts as $post) { ?>
@@ -54,7 +57,7 @@
         </section>
         <section class="create-blog">
             <h2>Create New Blog</h2>
-            <form action="submit_blog.php" method="POST">
+            <form action="includes/create_new_blog.php" method="POST">
                 <label for="blog-title">Title:</label>
                 <input type="text" id="blog-title" name="blog-title" required>
 
@@ -65,9 +68,7 @@
             </form>
         </section>
     </div>
-    <form action="includes/logout.php" method="POST" class="logout-form">
-            <button type="submit" name="logout-submit">Logout</button>
-    </form>
+
 </body>
 </html>
 
