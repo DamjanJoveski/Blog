@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
         $_SESSION["last_regeneration"] = time(); 
 
-        header("Location: ../index.php?page=myBlogs");
+        header("Location: ../index.php?page=home");
         exit();
     } catch (PDOException $e) {
         die("Query failed: " . $e->getMessage());

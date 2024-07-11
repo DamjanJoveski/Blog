@@ -100,3 +100,44 @@ a:hover {
     background-color: #cc0000; 
 }
 
+
+.blog-post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.blogs {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myblogs-form {
+    text-align: center;
+    margin: 20px;
+}
+
+.myblogs-form a {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.myblogs-form a:hover {
+    background-color: #0056b3;
+}
+
