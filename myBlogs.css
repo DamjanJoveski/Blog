@@ -70,3 +70,38 @@
 .logout-form button:hover {
     background-color: #cc0000; 
 }
+
+.delete-form {
+    margin-top: 10px;
+}
+
+.delete-form button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-form button:hover {
+    background-color: #cc0000;
+}
+
+.home-form {
+    text-align: center;
+    margin: 20px;
+}
+
+.home-form a {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.home-form a:hover {
+    background-color: #0056b3;
+}

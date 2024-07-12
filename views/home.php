@@ -16,7 +16,7 @@ function get_posts() {
     return $result;
 }
 
-$myPosts = get_posts();
+$posts = get_posts();
 
 ?>
 
@@ -40,8 +40,8 @@ $myPosts = get_posts();
             <a href="?page=myBlogs" type="submit" name="myBlogs">My Blogs</a>
         </form>
         <div class="blogs"> <?php
-        if(!empty($myPosts)){
-            foreach ($myPosts as $post) { ?>
+        if(!empty($posts)){
+            foreach ($posts as $post) { ?>
                 <div class="blog-post">
                     <?php
                 echo "<h2>{$post['title']}</h2>";
