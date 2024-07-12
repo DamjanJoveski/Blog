@@ -46,7 +46,7 @@ $myPosts = get_posts();
                     <?php
                 echo "<h2>{$post['title']}</h2>";
                 echo "<p>{$post['content']}</p>";
-                echo "<p>{$post['author']}</p>";
+                echo "<p>Author: {$post['author']}</p>";
                  ?>
                 </div>
                 <?php
